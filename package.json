@@ -1,8 +1,13 @@
 {
   "name": "express-routes-as-object",
   "version": "1.0.1",
-  "description": "",
+  "description": "Write clean and modularized expressjs route as object",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmajnr1000/express-routes-as-object"
+  },
+  "homepage": "https://github.com/emmajnr1000/express-routes-as-object#readme",
   "directories": {
     "lib": "lib"
   },
@@ -15,10 +20,20 @@
     "express": "^4.17.1",
     "mocha": "^8.3.2"
   },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "express-routes-as-object",
+    "express-routes",
+    "express",
+    "route",
+    "object",
+    "sails"
+  ],
   "scripts": {
     "test": "mocha — timeout 10000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "emmanuel uchewa",
+  "license": "MIT"
 }
