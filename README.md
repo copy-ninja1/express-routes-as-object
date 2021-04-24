@@ -111,10 +111,6 @@ module.exports = (req, res) => {
 // /controllers/user/find-one.js
 ```
 
-###### NOTE
-
-The `qs` library is preferable if you need to stringify nested objects, as the `querystring` method has known issues with that use case (https://github.com/nodejs/node-v0.x-archive/issues/1665).
-
 ## Credits
 
 express-routes-as-object is heavily inspired by the [Routes](https://sailsjs.com/documentation/concepts/routes) provided in [sailsjs.com](https://sailsjs.com/). Ultimately express-routes-as-object is an effort to provide same routing method in sailsjs to expressjs
